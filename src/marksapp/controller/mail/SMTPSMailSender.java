@@ -17,8 +17,8 @@ import javax.activation.*;
 public class SMTPSMailSender {
     private static final String host = "smtp.gmail.com";
     private static final String port = "587"; 
-    private static final String email = "csangya@gmail.com";
-    private static String password = "wozf cxzk syoq uztl"; // Use the App Password from Google
+    private static final String email = "ENTER YOUR EMAIL";
+    private static String password = "ENTER YOUR APP PASSWORD";
 
     // Send Email Method
     public static boolean sendMail(String recipient, String subject, String body) {
